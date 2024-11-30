@@ -32,7 +32,7 @@ type Root = {
   notes?: string;
   /** See the root below if the stems are empty as they may have similar pattern */
   see?: string;
-}[];
+};
 
 type Specs = {
   /** basic */
@@ -121,8 +121,8 @@ type CaseStackingAffix = {
 $ deno task json
 ```
 
-Generate minified json files to `output/lexicon_{LANG}.json`, which includes all the
-roots and affixes.
+Generate minified json files to `output/lexicon_{LANG}.json`, which includes all
+the roots and affixes.
 
 ### `yaml`
 
@@ -130,5 +130,5 @@ roots and affixes.
 $ deno task yaml
 ```
 
-Generate yaml filea to `output/lexicon_{LANG}.yaml`, which includes all the roots and
-affixes.
+Generate yaml filea to `output/lexicon_{LANG}.yaml`, which includes all the
+roots and affixes.
