@@ -14,6 +14,7 @@ export type Root = {
     Specs | string,
   ];
   notes?: string;
+  section: string,
 };
 
 type Degree = string | [string, string];
@@ -62,6 +63,11 @@ export type CaseStackingAffix = {
   cases: Array<Case>;
 };
 
+export type RootSection = {
+  section: string,
+  title: string,
+}
+
 export type Lexicon = {
   roots: Root[];
   affixes: {
@@ -69,4 +75,5 @@ export type Lexicon = {
     accessor: CaseAccessorAffix[];
     stacking: CaseStackingAffix[];
   };
+  rootSections: RootSection[];
 };

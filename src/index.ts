@@ -2,14 +2,13 @@ import {
   CaseAccessorAffix,
   CaseStackingAffix,
   Lexicon,
-  Root,
   StandardAffix,
 } from "./types.ts";
-import { readJsonFiles } from "./utils.ts";
+import { readJsonFiles, readJsonRootFiles } from "./utils.ts";
 
 export async function bundle(langDir: string): Promise<Lexicon> {
   return {
-    roots: (await readJsonFiles<Root[]>(`./lexicon/${langDir}/roots`)).flat(),
+    roots: (await readJsonRootFiles(`./lexicon/${langDir}/roots`)).flat(),
     affixes: {
       standard:
         (await readJsonFiles<StandardAffix[]>(`./lexicon/${langDir}/affixes/standard`))
@@ -21,5 +20,6 @@ export async function bundle(langDir: string): Promise<Lexicon> {
         `./lexicon/${langDir}/affixes/case_stacking`,
       ),
     },
+    ...JSON.parse(Deno.readTextFileSync(`./lexicon/${langDir}/sections.json`)),
   };
 }
