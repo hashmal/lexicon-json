@@ -1,5 +1,6 @@
 {
     "affixSections": [
+<<<<<<< HEAD
         { "section": "1", "value": "Demonstrative, Determinative, and Deictic Affixes" },
         { "section": "2", "value": "Sequential/Temporal Affixes" },
         { "section": "3", "value": "Spatial, Positional, and Motion Affixes" },
@@ -18,6 +19,27 @@
         { "section": "16", "value": "Grammatical Affixes" },
         { "section": "17", "value": "Affixes for Biological Genera, Species and Sub-Species Differentiation" },
         { "section": "18", "value": "Miscellaneous Affixes "}
+=======
+        { "section": "1", "title": "ROOTS ASSOCIATED WITH GRAMMATICAL FUNCTIONS" },
+        {"esction": "2", "value": "Demonstrative, Determinative, and Deictic Affixes"},
+        {"esction": "3", "value": "Sequential/Temporal Affixes"},
+        {"esction": "4", "value": "Spatial, Positional, and Motion Affixes"},
+        {"esction": "5", "value": "Quantifying Affixes"},
+        {"esction": "6", "value": "Qualifying Affixes"},
+        {"esction": "7", "value": "Adverbial Affixes"},
+        {"esction": "8", "value": "Modality Affixes"},
+        {"esction": "9", "value": "Agential/Participant Affixes"},
+        {"esction": "10", "value": "Affixes Relating to Bodily Position"},
+        {"esction": "11", "value": "Instrumentative/Utilitative Affixes"},
+        {"esction": "12", "value": "Configurative Affixes"},
+        {"esction": "13", "value": "Affixes Relating to Meta-Level Qualification"},
+        {"esction": "14", "value": "Sensory Affixes"},
+        {"esction": "15", "value": "Affixes Relating to Mathematics and Measurement"},
+        {"esction": "16", "value": "Coordinative and Connective Affixes"},
+        {"esction": "17", "value": "Grammatical Affixes"},
+        {"esction": "18", "value": "Affixes for Biological Genera, Species and Sub-Species Differentiation"},
+        {"esction": "19", "value": "Miscellaneous Affixes"}
+>>>>>>> 6ec387473e584abd758d8787086ce712b310d943
     ]
 }
 
