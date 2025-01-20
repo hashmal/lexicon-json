@@ -3,7 +3,7 @@ import { stringify } from "https://deno.land/std@0.168.0/encoding/yaml.ts";
 import { bundle } from "../src/index.ts";
 import { Lexicon } from "../src/types.ts";
 
-const LANGS = ['zh', 'en'];
+const LANGS = ['en'];
 
 for (let i = 0; i < LANGS.length; i += 1) {
     const lexicon: Lexicon = await bundle(LANGS[i]);

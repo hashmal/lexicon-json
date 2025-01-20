@@ -37,6 +37,7 @@ export type StandardAffix = {
     Degree,
   ];
   notes?: string;
+  section: string,
 };
 
 type Case = {
