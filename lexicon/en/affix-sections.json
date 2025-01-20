@@ -1,0 +1,24 @@
+{
+    "affixSections": [
+        { "section": "1", "value": "Demonstrative, Determinative, and Deictic Affixes" },
+        { "section": "2", "value": "Sequential/Temporal Affixes" },
+        { "section": "3", "value": "Spatial, Positional, and Motion Affixes" },
+        { "section": "4", "value": "Quantifying Affixes" },
+        { "section": "5", "value": "Qualifying Affixes" },
+        { "section": "6", "value": "Adverbial Affixes" },
+        { "section": "7", "value": "Modality Affixes" },
+        { "section": "8", "value": "Agential/Participant Affixes" },
+        { "section": "9", "value": "Affixes Relating to Bodily Position" },
+        { "section": "10", "value": "Instrumentative/Utilitative Affixes" },
+        { "section": "11", "value": "Configurative Affixes" },
+        { "section": "12", "value": "Affixes Relating to Meta-Level Qualification" },
+        { "section": "13", "value": "Sensory Affixes" },
+        { "section": "14", "value": "Affixes Relating to Mathematics and Measurement" },
+        { "section": "15", "value": "Coordinative and Connective Affixes" },
+        { "section": "16", "value": "Grammatical Affixes" },
+        { "section": "17", "value": "Affixes for Biological Genera, Species and Sub-Species Differentiation" },
+        { "section": "18", "value": "Miscellaneous Affixes "}
+    ]
+}
+
+
