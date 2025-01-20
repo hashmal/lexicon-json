@@ -69,6 +69,11 @@ export type RootSection = {
   title: string,
 }
 
+export type StandardAffixSection = {
+  section: string,
+  title: string,
+}
+
 export type Lexicon = {
   roots: Root[];
   affixes: {
@@ -77,4 +82,5 @@ export type Lexicon = {
     stacking: CaseStackingAffix[];
   };
   rootSections: RootSection[];
+  affixSections: StandardAffix[];
 };
